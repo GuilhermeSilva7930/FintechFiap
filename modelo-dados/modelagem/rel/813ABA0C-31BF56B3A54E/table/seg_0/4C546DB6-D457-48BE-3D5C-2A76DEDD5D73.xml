@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C546DB6-D457-48BE-3D5C-2A76DEDD5D73" name="TRANSACAO">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>8C0ED4AE-3D70-B203-010A-771CA13EE19F</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_transacao" id="9DA4CB4B-ADE1-CE9A-9740-108F1D5060C1">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>ADCCFC33-ACE5-853D-14CE-60033AFAA578</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_conta" id="78357A31-3ADB-D6C9-6932-0FC16EE6479C">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>1CDE9E51-6FCA-7419-A4EB-DFD4AC623CCC</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1B41635-BB0C-481E-92FB-D77CE8ACCEAA" referredColumn="0198B9AA-5F40-EC66-44EA-9E17625911DC"/>
+</associations>
+</Column>
+<Column name="data" id="9F1DDCE8-9F73-56A4-99E5-A9178175FB29">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>784BA2F0-FB45-C5FA-BD1F-F74B9E909E50</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="B2C73FDE-031D-1D13-E136-89F14408C31B">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>984CEA02-CCC3-5588-23DE-7405F6CAA422</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="D837E529-3A71-2DD2-46D2-C3392C53E06D">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>6F48E416-88D9-2592-FA85-761C4749C0E6</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="A0A25E56-9B92-1460-564E-AD1CE5DA1C9B">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>D1171159-4677-DB86-46F6-AF308979B2B9</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="927284B0-833F-C596-F7FF-06B155622954" name="TRANSACAO_PK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>E7BB208F-676A-8B31-0604-3D5EBA43CC13</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DA4CB4B-ADE1-CE9A-9740-108F1D5060C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D113DA29-60CA-3758-64E2-51A5A2411D3E" name="TRANSACAO_CONTA_FK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>D8B7B39B-31CC-3E7F-C722-6A3587567A24</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78357A31-3ADB-D6C9-6932-0FC16EE6479C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BAA462E-CE05-6B01-DA44-8E3974CABE9A" name="CLIENTE">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>33BC2EA6-46CB-787D-2B68-48C9CB571ABC</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="54D82B28-EF8F-E728-7E03-20679CF20F35">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>83304FD1-F6CD-9771-8A88-C2B9A88E8498</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="CFF219C3-2886-390F-380A-44D67DB5DBC1">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>5FFCECAD-9F82-D21C-4EAD-D5D7B6950CC0</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="7DADA49E-D7E4-3961-D4BA-005DC9C4C554">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>CBE9E276-CE8B-2C45-294B-B6D7AF7F5898</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="944617F6-E661-50FD-F11B-3BC969DE1C46">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>E1CB02D8-095F-F78E-D6A6-91D42CB21D8D</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1437F2DE-3183-A89A-114E-0D3F40FDBFAD" name="CLIENTE_PK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>1E898580-74EB-3FE0-7BBA-335E2C89F90A</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54D82B28-EF8F-E728-7E03-20679CF20F35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

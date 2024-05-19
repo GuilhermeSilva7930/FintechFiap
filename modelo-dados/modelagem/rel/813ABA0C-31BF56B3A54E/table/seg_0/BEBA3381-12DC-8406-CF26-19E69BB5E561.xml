@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEBA3381-12DC-8406-CF26-19E69BB5E561" name="CLIENTECONTA">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>442A7D0F-C5EB-727C-B454-0B0ACB7B49B9</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="AEF6CF61-EC50-67C9-8A69-90F027F7C0A7">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>C8C6A38F-D3B6-CF56-4F22-C3015B695DD8</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1E7F547-FCC5-45F1-B39A-029E1DCB8F63" referredColumn="54D82B28-EF8F-E728-7E03-20679CF20F35"/>
+</associations>
+</Column>
+<Column name="cd_conta" id="8B9A66D6-03A6-E468-64CE-EFF26BCFB68F">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>14EDD5BD-7150-464E-BDFB-7CE948F9A4F6</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28EF03E2-AB8D-9024-5488-1E3DC3D0C403" referredColumn="0198B9AA-5F40-EC66-44EA-9E17625911DC"/>
+</associations>
+</Column>
+<Column name="tipo_relacionamento" id="2D5A4D50-C3C3-FFB1-C250-8A38276FF9C2">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>95D913D8-51DB-0A27-DFD3-E2C340E63ED3</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBD32789-BD21-8E3B-1508-C59AFEA103A7" name="CLIENTECONTA_PK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>6132487E-A147-8BD1-0156-D67C5DB00AA4</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEF6CF61-EC50-67C9-8A69-90F027F7C0A7"/>
+<colUsage columnID="8B9A66D6-03A6-E468-64CE-EFF26BCFB68F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EC8AE6B-53C9-6A47-A096-8322DEF616A9" name="CLIENTECONTA_CLIENTE_FK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>EB207B4E-C5FD-FA37-D8B2-155C70C31CC4</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEF6CF61-EC50-67C9-8A69-90F027F7C0A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1909C73-BEFE-EE6C-0693-8F21E6916BFC" name="CLIENTECONTA_CONTA_FK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>CB3B6654-10EC-6A95-8F16-9CF3091144CD</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B9A66D6-03A6-E468-64CE-EFF26BCFB68F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

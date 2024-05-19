@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EA6BA0E-E0A2-A346-BB37-FBD981CDC5AA" name="CONTA">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:28:44 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_conta" id="AD174878-B391-0A19-FA73-30618E594189">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:32:48 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nro_conta" id="025C6C2E-871C-77EA-FE38-9011356698D7">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:31:48 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_conta" id="776012C3-814E-C341-B6EF-7B7DD59D3634">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:32:05 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo" id="B6637F10-0DAE-7DC5-FE07-B037F08D60E5">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:32:20 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_criacao" id="2C8B0A0E-932A-E428-5758-56CBA71EAF6F">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:34:42 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8091694B-4E97-6162-4766-61F8E6B69E9E" name="CONTA PK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 22:12:49 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD174878-B391-0A19-FA73-30618E594189</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

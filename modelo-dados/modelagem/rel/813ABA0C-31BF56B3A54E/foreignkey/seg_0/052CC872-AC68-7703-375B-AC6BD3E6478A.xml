@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="052CC872-AC68-7703-375B-AC6BD3E6478A" containerWithKeyObject="E2D04E1E-69E4-50C7-7E9D-14D5620A8F97" localFKIndex="04585545-02F9-BF26-3A97-F9F620D99CE6" name="CONTAPOUPANCA_CONTA_FK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>CF89DB03-F131-5890-E398-5981495F950E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>CONTA</referredTableLongName>
+<arc>D00B4F52-0238-519C-2F9C-73FEF6CEDDF1</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F631B926-C551-1534-F229-06359F513811</referredTableID>
+<keyObject>5904D72A-895C-952C-6656-134C0FA2BD04</keyObject>
+<referredKeyID>5904D72A-895C-952C-6656-134C0FA2BD04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_conta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>P</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

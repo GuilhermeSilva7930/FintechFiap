@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2D04E1E-69E4-50C7-7E9D-14D5620A8F97" name="CONTAPOUPANCA">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>E818ECEC-D01E-A554-163D-F0AB6EEB69AE</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_conta" id="22689D71-F861-78E3-D46D-B16169AF3DEE">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>FA1B3C3E-E8EC-C3CE-F478-A79D11B4791E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="052CC872-AC68-7703-375B-AC6BD3E6478A" referredColumn="0198B9AA-5F40-EC66-44EA-9E17625911DC"/>
+</associations>
+</Column>
+<Column name="taxa_rendimento" id="0BB8D648-D278-791C-A308-7B2E0BFFF298">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>059CF01C-11F3-E952-880B-0662C0380A6F</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8BFD6A5-28FE-80E8-2531-3E7C0C98027D" name="CONTAPOUPANCA_PK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>3CDA65DE-2A0A-4065-FF1C-F75381E359D5</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22689D71-F861-78E3-D46D-B16169AF3DEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04585545-02F9-BF26-3A97-F9F620D99CE6" name="CONTAPOUPANCA_CONTA_FK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>CF89DB03-F131-5890-E398-5981495F950E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22689D71-F861-78E3-D46D-B16169AF3DEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

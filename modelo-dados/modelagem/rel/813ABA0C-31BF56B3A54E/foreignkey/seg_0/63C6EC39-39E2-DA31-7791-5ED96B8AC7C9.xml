@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="63C6EC39-39E2-DA31-7791-5ED96B8AC7C9" containerWithKeyObject="9FBDA780-52FF-A6AF-0106-810F09EC13DD" localFKIndex="9768F6B4-E35B-B7F6-1E88-1D0D44A7D673" name="CONTACORRENTE_CONTA_FK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>BC4B7F90-66E2-F69C-6ECD-907C80FF8D04</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>CONTA</referredTableLongName>
+<arc>D00B4F52-0238-519C-2F9C-73FEF6CEDDF1</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F631B926-C551-1534-F229-06359F513811</referredTableID>
+<keyObject>5904D72A-895C-952C-6656-134C0FA2BD04</keyObject>
+<referredKeyID>5904D72A-895C-952C-6656-134C0FA2BD04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_conta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>C</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

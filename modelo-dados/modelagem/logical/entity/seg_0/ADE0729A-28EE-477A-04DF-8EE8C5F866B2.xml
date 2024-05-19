@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADE0729A-28EE-477A-04DF-8EE8C5F866B2" name="GASTO">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:48:09 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_gasto" id="670C146F-1DF0-8590-E989-1032A55473E8">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:54:25 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cartao" id="513873AF-784E-A628-08E7-C46076E4B30B">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 23:31:13 UTC</createdTime>
+<generatorID>3DD18B4C-8F91-ECF7-8573-BCB582F386AD</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<referedAttribute>11779179-7973-88CA-B249-34ECA21B45AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="4C08702C-AAC4-4AD9-E4A5-FCA57201B7C6">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:54:34 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="0BF8DF0F-999C-8F59-0CD9-751E1C240EDA">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:54:42 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="DC4CBA11-DF34-222C-3922-ED4BBB87B32C">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:54:55 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="AD825FCC-69B7-BABE-853E-B5DC4D979A64">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:55:04 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B62D105-E017-A292-2751-52CA88669882" name="GASTO PK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-18 19:54:33 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>670C146F-1DF0-8590-E989-1032A55473E8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="777FFDFA-B6E7-37FF-58FB-07DF37654102" name="herdam">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:54:19 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+</engineerTo>
+<entity>5EA6BA0E-E0A2-A346-BB37-FBD981CDC5AA</entity>
+<relations>
+<relationID>BC4B7F90-66E2-F69C-6ECD-907C80FF8D04</relationID>
+<relationID>CF89DB03-F131-5890-E398-5981495F950E</relationID>
+</relations>
+</Arc>

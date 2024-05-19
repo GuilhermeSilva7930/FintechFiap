@@ -51,9 +51,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="saldo" id="B6637F10-0DAE-7DC5-FE07-B037F08D60E5">
 <createdBy>Luciane</createdBy>
@@ -89,8 +89,9 @@
 <createdBy>Luciane</createdBy>
 <createdTime>2024-05-18 22:12:49 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
+<item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

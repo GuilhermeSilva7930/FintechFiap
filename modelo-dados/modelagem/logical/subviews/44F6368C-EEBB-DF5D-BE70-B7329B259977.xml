@@ -112,4 +112,10 @@
 </points>
 </Connector>
 </connectors>
+<arcs>
+<Arc class="oracle.dbtools.crest.swingui.logical.TVArc" oid="777FFDFA-B6E7-37FF-58FB-07DF37654102" otype="Arc" vid="9400EC62-13B9-AE95-7C88-463DAA3A6A40">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="316" y="180" width="363" height="174"/>
+</Arc>
+</arcs>
 </Diagram>

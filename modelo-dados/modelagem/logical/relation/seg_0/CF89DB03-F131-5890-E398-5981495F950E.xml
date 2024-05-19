@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="CF89DB03-F131-5890-E398-5981495F950E">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pertencev1" directorySegmentName="seg_0" id="CF89DB03-F131-5890-E398-5981495F950E">
 <createdBy>Luciane</createdBy>
 <createdTime>2024-05-18 22:35:54 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -7,6 +7,7 @@
 <item key="813ABA0C-9967-2418-7FEF-31BF56B3A54E" value="true"/>
 </engineerTo>
 <sourcePk>8091694B-4E97-6162-4766-61F8E6B69E9E</sourcePk>
+<arc>777FFDFA-B6E7-37FF-58FB-07DF37654102</arc>
 <dominantRole>5EA6BA0E-E0A2-A346-BB37-FBD981CDC5AA</dominantRole>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

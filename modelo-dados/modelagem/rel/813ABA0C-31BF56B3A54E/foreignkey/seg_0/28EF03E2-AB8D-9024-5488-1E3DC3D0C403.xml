@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="28EF03E2-AB8D-9024-5488-1E3DC3D0C403" containerWithKeyObject="BEBA3381-12DC-8406-CF26-19E69BB5E561" localFKIndex="B1909C73-BEFE-EE6C-0693-8F21E6916BFC" name="CLIENTECONTA_CONTA_FK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:47:15 UTC</createdTime>
+<generatorID>CB3B6654-10EC-6A95-8F16-9CF3091144CD</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>CONTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F631B926-C551-1534-F229-06359F513811</referredTableID>
+<keyObject>5904D72A-895C-952C-6656-134C0FA2BD04</keyObject>
+<referredKeyID>5904D72A-895C-952C-6656-134C0FA2BD04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_conta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

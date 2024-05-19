@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="D00B4F52-0238-519C-2F9C-73FEF6CEDDF1" name="herdam">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-19 01:55:10 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>F631B926-C551-1534-F229-06359F513811</table>
+<discriminatorColumn>A668D918-6CC0-0F05-1E01-32D3A3E85984</discriminatorColumn>
+<fkeys>
+<fkeyID>63C6EC39-39E2-DA31-7791-5ED96B8AC7C9</fkeyID>
+<fkeyID>052CC872-AC68-7703-375B-AC6BD3E6478A</fkeyID>
+</fkeys>
+</FKArc>
